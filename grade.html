@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grades</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <style>
+      .col-sm-2 {
+        background-color: lightgray;
+        border: 2px, solid, black;
+        padding: 5px;
+        font-size: 12px;
+        text-align: end;
+      }
+
+      #header {
+        background-color: lightgray;
+        border: 2px, solid, black;
+        padding: 5px;
+        font-size: 15px;
+        text-align: end;
+      }
+
+      .nav-link:hover {
+        background-color: lightgrey;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="home.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="attendance.html">Attendance</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="grade.html">Grade</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="aboutUs.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contactUs.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <h1>Grade System</h1>
+      <!-- Each row ios divided into 12 columns -->
+      <div class="row">
+        <!-- col-sm-3 means the col will take up 3/12 of the row when screen is larger than 575px -->
+        <div class="col-sm-2" id="header"><strong>Student name</strong></div>
+        <div class="col-sm-2" id="header"><strong>Student ID</strong></div>
+        <div class="col-sm-2" id="header"><strong>Student year</strong></div>
+        <div class="col-sm-2" id="header"><strong>Student GPA</strong></div>
+        <div class="col-sm-2" id="header"><strong>Letter Grade</strong></div>
+      </div>
+      <br />
+      <div class="row">
+        <!-- col-sm-3 means the col will take up 3/12 of the row when screen is larger than 575px -->
+        <div class="col-sm-2">David Chen</div>
+        <div class="col-sm-2">STU2024103</div>
+        <div class="col-sm-2">Junior</div>
+        <div class="col-sm-2">3.78</div>
+        <div class="col-sm-2">A-</div>
+      </div>
+      <div class="row">
+        <!-- col-sm-3 means the col will take up 3/12 of the row when screen is larger than 575px -->
+        <div class="col-sm-2">Sarah Rodriguez</div>
+        <div class="col-sm-2">STU2024187</div>
+        <div class="col-sm-2">Sophomore</div>
+        <div class="col-sm-2">3.92</div>
+        <div class="col-sm-2">A</div>
+      </div>
+      <div class="row">
+        <!-- col-sm-3 means the col will take up 3/12 of the row when screen is larger than 575px -->
+        <div class="col-sm-2">Michael Johnson</div>
+        <div class="col-sm-2">STU2024256</div>
+        <div class="col-sm-2">Senior</div>
+        <div class="col-sm-2">3.45</div>
+        <div class="col-sm-2">B+</div>
+      </div>
+      <div class="row">
+        <!-- col-sm-3 means the col will take up 3/12 of the row when screen is larger than 575px -->
+        <div class="col-sm-2">Emma Williams</div>
+        <div class="col-sm-2">STU2024294</div>
+        <div class="col-sm-2">Freshman</div>
+        <div class="col-sm-2">3.67</div>
+        <div class="col-sm-2">A-</div>
+      </div>
+
+      <footer class="pt-3 mt-4 text-muted border-top">
+        Grading Attendance Projects 2025
+      </footer>
+    </div>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+  </body>
+</html>
